@@ -3,7 +3,7 @@ package staff.management;
 import staff.Employee;
 
 public class Manager extends Employee {
-    private String deptName;
+    protected String deptName;
 
     public Manager(String name, String NINumber, double salary, String deptName){
         super(name, NINumber, salary);

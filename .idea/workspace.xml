@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b7bcfa-f5fd-4629-a041-6cc61debae64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/staff/management/Management.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/management/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ManagementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManagementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/management/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/management/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagementTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1fGrhDoU1T8AFSgeytWY2CLm59a" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -44,63 +44,59 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.ManagementTest">
-    <configuration name="ManagementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DirectorTest">
+    <configuration name="All in employee_lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="employee_lab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ManagementTest" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseAdminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseAdminTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagementTest.canGetBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeveloperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="employee_lab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ManagementTest" />
-      <option name="METHOD_NAME" value="canGetBonus" />
+      <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeveloperTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
+      <option name="METHOD_NAME" value="hasName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagementTest.canRaiseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DirectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="employee_lab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ManagementTest" />
-      <option name="METHOD_NAME" value="canRaiseSalary" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManagementTest.hasNINumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="employee_lab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ManagementTest" />
-      <option name="METHOD_NAME" value="hasNINumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManagementTest.hasSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="employee_lab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ManagementTest" />
-      <option name="METHOD_NAME" value="hasSalary" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ManagementTest" />
-        <item itemvalue="JUnit.ManagementTest.canGetBonus" />
-        <item itemvalue="JUnit.ManagementTest.canRaiseSalary" />
-        <item itemvalue="JUnit.ManagementTest.hasSalary" />
-        <item itemvalue="JUnit.ManagementTest.hasNINumber" />
+        <item itemvalue="JUnit.DirectorTest" />
+        <item itemvalue="JUnit.All in employee_lab" />
+        <item itemvalue="JUnit.DeveloperTest" />
+        <item itemvalue="JUnit.DeveloperTest.hasName" />
+        <item itemvalue="JUnit.DatabaseAdminTest" />
       </list>
     </recent_temporary>
   </component>
@@ -122,25 +118,29 @@
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
     <state x="-1583" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1595860618375" />
-    <state width="1007" height="304" key="GridCell.Tab.0.bottom" timestamp="1595861863471">
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1595866241427">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1007" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1595861863471" />
-    <state width="1007" height="304" key="GridCell.Tab.0.center" timestamp="1595861863468">
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1595866241427" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1595866241425">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1007" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1595861863468" />
-    <state width="1007" height="304" key="GridCell.Tab.0.left" timestamp="1595861863467">
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1595866241425" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1595866241424">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1007" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1595861863467" />
-    <state width="1007" height="304" key="GridCell.Tab.0.right" timestamp="1595861863470">
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1595866241424" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1595866241426">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
-    <state width="1007" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1595861863470" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1595866241426" />
     <state x="-1617" y="186" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595859745356">
       <screen x="-1920" y="-88" width="1920" height="1080" />
     </state>
     <state x="-1617" y="186" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1595859745356" />
+    <state x="-1295" y="153" width="670" height="676" key="search.everywhere.popup" timestamp="1595866086412">
+      <screen x="-1920" y="-88" width="1920" height="1080" />
+    </state>
+    <state x="-1295" y="153" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-1920.-88.1920.1080@-1920.-88.1920.1080" timestamp="1595866086412" />
   </component>
 </project>
